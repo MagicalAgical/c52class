@@ -1,0 +1,88 @@
+body{
+    background-color: #d0f8c6;
+   }
+   h1{
+       color:#e25078 ;
+   }
+
+   
+   .header{
+    background-color:#b7f3a3;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin: 20px;
+
+    padding: 20px;
+
+    border:solid;
+
+    
+    
+   }
+
+.grid{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.space{
+    margin: 20px;
+    
+}
+a{
+    padding-right: 20px;
+}
+
+h2{
+    color:#e25078;
+
+    text-align: center;
+}
+p{
+    color: #e25078;
+    text-align: center;
+}
+
+a:link{
+    color: blue;
+}
+a:visited{
+    color: red;
+}
+.item{
+    position: relative;
+
+
+
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+
+
+    
+}
+
+.item:hover p{
+    opacity: 1;
+    color: red;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+/* Body for AboutMe */
+
